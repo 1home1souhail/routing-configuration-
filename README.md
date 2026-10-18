@@ -1,7 +1,7 @@
 # routing-configuration-
 all types of routing ways static and dynamic (RIP V1,2 / OSPF / EIGRP)
 
-#STATIC :
+##STATIC :
 the topology is 2 networks and link them with a 3d network between 2 routers :
 
 <img width="424" height="290" alt="image" src="https://github.com/user-attachments/assets/0baa09d2-7ac8-446e-95bb-70798ba28293" />
@@ -45,6 +45,8 @@ configuring @IPs first then static routes after then testing :
   <img width="316" height="146" alt="image" src="https://github.com/user-attachments/assets/405a4947-32d7-4b1b-ba07-7746751a509d" />
 
 
+  ##DYNAMIC :
+  #RIP1 :
   
 
 
