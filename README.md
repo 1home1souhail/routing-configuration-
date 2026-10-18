@@ -1,4 +1,4 @@
-# routing-configuration-
+# routing-configuration 
 all types of routing ways static and dynamic (RIP V1,2 / OSPF / EIGRP)
 
 ##STATIC :
