@@ -24,7 +24,7 @@ configuring @IPs :
   <img width="317" height="60" alt="image" src="https://github.com/user-attachments/assets/596eb222-389b-4cd0-b326-59bd36a021e1" />
   
   gateway network interface :
+  
   <img width="326" height="50" alt="image" src="https://github.com/user-attachments/assets/28cc68ec-de1c-4674-9515-39540b05fd97" />
-
 
 
