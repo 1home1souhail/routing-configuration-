@@ -1,5 +1,4 @@
-# routing-configuration 
-all types of routing ways static and dynamic (RIP V1,2 / OSPF / EIGRP)
+# routing-configuration static and dynamic (RIP V1,2 / OSPF / EIGRP)
 
 ##STATIC :
 the topology is 2 networks and link them with a 3d network between 2 routers :
