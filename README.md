@@ -84,6 +84,7 @@ configuring @IPs first then static routes after then testing :
   <img width="434" height="56" alt="image" src="https://github.com/user-attachments/assets/ce032329-b619-4232-8418-bd5667b761de" />
 
   now time to set RIP i will use v1 because i am using class C networks so no cidr no need for RIP v2 :
+  
   on router 1 : its lan and the gateway so he can send updates and declare his lan (10 is class A so no need to put all the @IP )
   
   <img width="254" height="30" alt="image" src="https://github.com/user-attachments/assets/f63ebaea-9117-48a5-91fc-c9970d01e81a" />
