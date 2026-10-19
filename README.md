@@ -24,6 +24,19 @@ configuring @IPs first then static routes after then testing :
   testing this route with ping from pc2 192.168.10.2 to pc3 192.168.20.3 :
   
   <img width="308" height="140" alt="image" src="https://github.com/user-attachments/assets/a943987e-7bfb-4541-b2a1-ea3de83a7c72" />
+
+  final routing table :
+
+  <img width="339" height="89" alt="image" src="https://github.com/user-attachments/assets/1ba08f99-59b9-4c40-aa2e-a1f27b93ba07" />
+
+   interfaces status :
+  
+  <img width="429" height="52" alt="image" src="https://github.com/user-attachments/assets/96e17f8c-b15b-45d2-b8e3-26fd09d54c01" />
+
+  passwords setup example :
+  
+  <img width="371" height="149" alt="image" src="https://github.com/user-attachments/assets/7abd65e1-74e3-4644-85a9-8dacf4805879" />
+
   
  right router :
  
@@ -43,14 +56,9 @@ configuring @IPs first then static routes after then testing :
 
   <img width="316" height="146" alt="image" src="https://github.com/user-attachments/assets/405a4947-32d7-4b1b-ba07-7746751a509d" />
 
-  interfaces status :
+  final routing table :
+  <img width="346" height="92" alt="image" src="https://github.com/user-attachments/assets/e963ebd1-8057-4dee-bbce-e09ae3f6ff83" />
   
-  <img width="429" height="52" alt="image" src="https://github.com/user-attachments/assets/96e17f8c-b15b-45d2-b8e3-26fd09d54c01" />
-
-
-  passwords setup example :
-  
-  <img width="371" height="149" alt="image" src="https://github.com/user-attachments/assets/7abd65e1-74e3-4644-85a9-8dacf4805879" />
 
 
   ##DYNAMIC :
