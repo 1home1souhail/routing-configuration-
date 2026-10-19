@@ -1,4 +1,4 @@
-# routing-configuration static and dynamic (RIP V1,2 / OSPF / EIGRP)
+# routing-configuration static and dynamic (RIP / OSPF / EIGRP)
 
 ##STATIC :
 the topology is 2 networks and link them with a 3d network between 2 routers :
@@ -60,10 +60,9 @@ configuring @IPs first then static routes after then testing :
   
   <img width="346" height="92" alt="image" src="https://github.com/user-attachments/assets/e963ebd1-8057-4dee-bbce-e09ae3f6ff83" />
   
+   2nd example also preparation for rip :
 
-
-  ##DYNAMIC :
-  #RIP1 : topology 
+   topology 
   
   <img width="636" height="366" alt="image" src="https://github.com/user-attachments/assets/de472c39-1c14-4a81-bf97-cb581dd46013" />
 
@@ -71,9 +70,73 @@ configuring @IPs first then static routes after then testing :
   
   <img width="413" height="259" alt="image" src="https://github.com/user-attachments/assets/25892039-4061-4ab6-bc85-61d53b55f09c" />
 
-  i set up static routes here is the network now and a test for the static routing :
+  i set up static routes , here is the network now and a test for the static routing :
 
   <img width="959" height="477" alt="Capture d&#39;écran 2026-10-19 162846" src="https://github.com/user-attachments/assets/0c4b9dd9-5eec-4e2e-a1da-33fa99ca5a20" />
+
+  ##DYNAMIC :
+  #RIP : topology
+  
+  <img width="473" height="366" alt="image" src="https://github.com/user-attachments/assets/815f4d8f-4138-4e13-8e8f-4aaf0b4ec86c" />
+
+  here is a test after deleting all the routes :
+
+  <img width="434" height="56" alt="image" src="https://github.com/user-attachments/assets/ce032329-b619-4232-8418-bd5667b761de" />
+
+  now time to set RIP i will use v1 because i am using class C networks so no cidr no need for RIP v2 :
+  on router 1 : its lan and the gateway so he can send updates and declare his lan (10 is class A so no need to put all the @IP )
+  
+  <img width="254" height="30" alt="image" src="https://github.com/user-attachments/assets/f63ebaea-9117-48a5-91fc-c9970d01e81a" />
+
+  router 2 :
+
+  <img width="332" height="59" alt="image" src="https://github.com/user-attachments/assets/ce7a7fe4-6183-45c3-8d25-297577c476e2" />
+
+  router 3 :
+  
+  <img width="280" height="32" alt="image" src="https://github.com/user-attachments/assets/a0fc5784-40ac-451c-863a-b227ec553a48" />
+
+  router 4 :
+
+  <img width="245" height="31" alt="image" src="https://github.com/user-attachments/assets/6bb5afd6-fb4a-455e-857a-093890f303e7" />
+
+  router 5 :
+
+  <img width="231" height="32" alt="image" src="https://github.com/user-attachments/assets/fbad8d10-d789-4321-b9c3-ac20540f3649" />
+
+
+  the routing table of router 4 after each router updated his neighbors :
+
+  <img width="359" height="203" alt="image" src="https://github.com/user-attachments/assets/5fe32c6d-a549-440e-9324-2bb5d19710d1" />
+
+  now here is a test :
+
+  <img width="424" height="53" alt="image" src="https://github.com/user-attachments/assets/522af45c-5e0a-4bca-bdc1-d0afccc932f0" />
+
+  2nd test while one of the routers r2 is down :
+
+  <img width="424" height="53" alt="image" src="https://github.com/user-attachments/assets/ecaa7fe2-134f-47f2-8576-0469212fdd02" />
+
+  3d test router 4 the one in the center is down :
+
+  <img width="504" height="361" alt="image" src="https://github.com/user-attachments/assets/318d93e5-eb0c-40ec-a815-1accba822555" />
+
+  as we can see the first packet failed but then same packet worked because the router r5 recieved the updates from his neighbor r1 :
+
+  <img width="425" height="56" alt="image" src="https://github.com/user-attachments/assets/83d52384-23bb-46f2-9cc0-e8553d345cfb" />
+
+
+
+  
+
+
+
+
+
+
+  
+
+  
 
 
   
