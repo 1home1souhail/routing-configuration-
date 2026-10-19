@@ -122,7 +122,7 @@ configuring @IPs first then static routes after then testing :
 
   <img width="504" height="361" alt="image" src="https://github.com/user-attachments/assets/318d93e5-eb0c-40ec-a815-1accba822555" />
 
-  as we can see the first packet failed but then same packet worked because the router r5 recieved the updates from his neighbor r1 :
+  the first packet failed but then same packet worked because the router r5 recieved the updates from his neighbor r1 :
 
   <img width="425" height="56" alt="image" src="https://github.com/user-attachments/assets/83d52384-23bb-46f2-9cc0-e8553d345cfb" />
 
