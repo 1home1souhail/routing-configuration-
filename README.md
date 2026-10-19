@@ -43,6 +43,10 @@ configuring @IPs first then static routes after then testing :
 
   <img width="316" height="146" alt="image" src="https://github.com/user-attachments/assets/405a4947-32d7-4b1b-ba07-7746751a509d" />
 
+  passwords setup in :
+  
+  <img width="371" height="149" alt="image" src="https://github.com/user-attachments/assets/7abd65e1-74e3-4644-85a9-8dacf4805879" />
+
 
   ##DYNAMIC :
   #RIP1 :
