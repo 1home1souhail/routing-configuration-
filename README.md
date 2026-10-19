@@ -63,7 +63,21 @@ configuring @IPs first then static routes after then testing :
 
 
   ##DYNAMIC :
-  #RIP1 :
+  #RIP1 : topology 
+  
+  <img width="636" height="366" alt="image" src="https://github.com/user-attachments/assets/de472c39-1c14-4a81-bf97-cb581dd46013" />
+
+  one router interfaces set up example :
+  
+  <img width="413" height="259" alt="image" src="https://github.com/user-attachments/assets/25892039-4061-4ab6-bc85-61d53b55f09c" />
+
+  i set up static routes here is the network now and a test for the static routing :
+
+  <img width="959" height="477" alt="Capture d&#39;écran 2026-10-19 162846" src="https://github.com/user-attachments/assets/0c4b9dd9-5eec-4e2e-a1da-33fa99ca5a20" />
+
+
+  
+  
   
 
 
