@@ -57,6 +57,7 @@ configuring @IPs first then static routes after then testing :
   <img width="316" height="146" alt="image" src="https://github.com/user-attachments/assets/405a4947-32d7-4b1b-ba07-7746751a509d" />
 
   final routing table :
+  
   <img width="346" height="92" alt="image" src="https://github.com/user-attachments/assets/e963ebd1-8057-4dee-bbce-e09ae3f6ff83" />
   
 
