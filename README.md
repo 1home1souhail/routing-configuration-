@@ -127,7 +127,6 @@ configuring @IPs first then static routes after then testing :
   <img width="425" height="56" alt="image" src="https://github.com/user-attachments/assets/83d52384-23bb-46f2-9cc0-e8553d345cfb" />
 
 
-
   
 
 
