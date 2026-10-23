@@ -214,6 +214,7 @@ neighbors :
 
 routing table :
 
+
 <img src="readme_images/images/ospf-routing-table.png" width="500" alt="ospf routing table" />
 
 test :
